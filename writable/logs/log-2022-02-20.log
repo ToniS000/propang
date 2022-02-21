@@ -1,0 +1,116 @@
+CRITICAL - 2022-02-20 04:08:13 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 04:08:30 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-02-20 06:39:41 --> Unknown column 'id_u' in 'where clause'
+CRITICAL - 2022-02-20 06:39:41 --> Unknown column 'id_u' in 'where clause'
+#0 C:\xampp\htdocs\propang\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\propang\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\propang\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\propang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\propang\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\propang\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\propang\app\Controllers\Auth.php(234): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\propang\system\CodeIgniter.php(825): App\Controllers\Auth->profile()
+#8 C:\xampp\htdocs\propang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-20 06:40:18 --> Unknown column 'id_u' in 'where clause'
+CRITICAL - 2022-02-20 06:40:18 --> Unknown column 'id_u' in 'where clause'
+#0 C:\xampp\htdocs\propang\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\propang\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\propang\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\propang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\propang\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\propang\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\propang\app\Controllers\Auth.php(234): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\propang\system\CodeIgniter.php(825): App\Controllers\Auth->profile()
+#8 C:\xampp\htdocs\propang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-20 09:02:29 --> Class 'Config\App\filter\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:02:58 --> Class 'Config\App\filter\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:03:00 --> Class 'Config\App\filter\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:03:21 --> Class 'Config\App\filters\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:03:23 --> Class 'Config\App\filters\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:03:36 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:03:38 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:04:13 --> Class 'Config\App\Filters\NoAuth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:05:44 --> Class 'Config\App\Filters\Noauth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 09:08:19 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-20 16:57:44 --> Undefined property: App\Filters\Check::$session
+#0 C:\xampp\htdocs\propang\app\Filters\Check.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\propang\system\Filters\Filters.php(173): App\Filters\Check->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#3 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-20 17:17:47 --> Class 'App\Filters\Check' not found
+#0 C:\xampp\htdocs\propang\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/member', 'before')
+#1 C:\xampp\htdocs\propang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\propang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\propang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}

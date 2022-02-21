@@ -6,6 +6,9 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('dashboard');
+        $data = [
+            'title' => 'App ProPangan'
+        ];
+        return view('dashboard', $data);
     }
 }
