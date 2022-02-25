@@ -62,6 +62,16 @@
                 </div>
               </div>
             </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-4 text-lg-right">
+                  <label for="" class="text-lg">Gambar</label>
+                </div>
+                <div class="col-5">
+                  <input type="file" class="form-control-file">
+                </div>
+              </div>
+            </div>
 
             <a href="#" class="btn btn-info btn-icon-split">
               <span class="icon text-white-50">

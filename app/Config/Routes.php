@@ -37,8 +37,8 @@ $routes->match(['get', 'post'], '/login', 'Auth::index', ['filter' => 'noauth'])
 $routes->match(['get', 'post'], '/register', 'Auth::register', ['filter' => 'noauth']);
 $routes->match(['get', 'post'], '/profile', 'Auth::profile', ['filter' => 'auth']);
 $routes->get('/logout', 'Auth::logout');
-// Route member
-$routes->get('/member', 'Member::index', ['filter' => 'auth']);
+// Route user
+$routes->get('/user', 'User::index', ['filter' => 'auth']);
 // Route admin
 $routes->get('/admin', 'Admin::index', ['filter' => 'auth']);
 

@@ -9,7 +9,7 @@ class Admin extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'App ProPangan'
+            'title' => 'SimPangan | Admin'
         ];
         return view('admin/dashboard', $data);
     }

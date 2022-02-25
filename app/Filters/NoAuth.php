@@ -17,7 +17,7 @@ class NoAuth implements FilterInterface
         $role = '/admin';
       }
       if (session()->get('id_role') == 2) {
-        $role = '/member';
+        $role = '/user';
       }
       return redirect()->to($role);
     }

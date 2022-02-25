@@ -1,0 +1,18 @@
+ERROR - 2022-02-25 09:45:08 --> Error connecting to the database: Unknown database 'propang'
+CRITICAL - 2022-02-25 09:45:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'propang'
+#0 C:\xampp\htdocs\simpangan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\simpangan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\simpangan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\simpangan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\simpangan\app\Validation\UserRules.php(13): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\simpangan\system\Validation\Validation.php(292): App\Validation\UserRules->validateUser('12345', 'email,password_...', Array, NULL)
+#6 C:\xampp\htdocs\simpangan\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345', Array, Array)
+#7 C:\xampp\htdocs\simpangan\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\simpangan\app\Controllers\Auth.php(49): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\simpangan\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#10 C:\xampp\htdocs\simpangan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\simpangan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simpangan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simpangan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

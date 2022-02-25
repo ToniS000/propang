@@ -36,21 +36,18 @@
                     </div>
                   <?php endif; ?>
                   <div class="form-group">
-                    <input type="text" class="form-control form-control-user" name="email" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                    <input type="text" class="form-control form-control-user" name="email" placeholder="Enter Email Address..." value="<?= set_value('name'); ?>" autofocus>
                   </div>
                   <div class="form-group">
                     <input type="password" class="form-control form-control-user" name="password" placeholder="Password">
                   </div>
                   <button type="submit" class="btn btn-primary btn-user btn-block">
-                    Login
+                    Sign-In
                   </button>
                 </form>
                 <hr>
                 <div class="text-center">
                   <a class="small" href="forgot_password">Forgot Password?</a>
-                </div>
-                <div class="text-center">
-                  <a class="small" href="register">Create an Account!</a>
                 </div>
               </div>
             </div>

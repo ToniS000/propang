@@ -7,8 +7,8 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'App ProPangan'
+            'title' => 'SimPangan | Home'
         ];
-        return view('dashboard', $data);
+        return view('home', $data);
     }
 }

@@ -6,9 +6,9 @@
   <!-- Sidebar - Brand -->
   <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
     <div class="sidebar-brand-icon rotate-n-15">
-      <i class="fas fa-bolt"></i>
+      <i class="fas fa-chart-pie"></i>
     </div>
-    <div class="sidebar-brand-text mx-3">Produksi Pangan</div>
+    <div class="sidebar-brand-text mx-3">SimPangan</div>
   </a>
 
   <!-- Divider -->

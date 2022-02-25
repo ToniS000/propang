@@ -33,7 +33,7 @@
       <!-- Main Content -->
       <div id="content">
 
-        <?= $this->include('layout/navbar'); ?>
+        <?= $this->include('layout/topbar'); ?>
 
         <?= $this->renderSection('content') ?>
 
@@ -70,6 +70,7 @@
 
   <!-- Custom scripts for all pages-->
   <script src="/js/sb-admin-2.min.js"></script>
+  <script src="/vendor/fontawesome-free/js/all/js"></script>
 
 </body>
 

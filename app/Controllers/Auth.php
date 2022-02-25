@@ -16,7 +16,7 @@ class Auth extends BaseController
     {
         helper(['form']);
         $data = [
-            'title' => 'Login App ProPangan'
+            'title' => 'SimPangan | Login'
         ];
 
         if ($this->request->getMethod() == 'post') {
@@ -35,14 +35,14 @@ class Auth extends BaseController
                         'required' => '{field} harus diisi.',
                         'min_length' => '{field} minimal 5 digit.',
                         'max_length' => '{field} terlalu panjang',
-                        'validateUser' => 'email dan {field} tidak cocok.'
+                        'validateUser' => 'email/password tidak cocok!'
                     ]
                 ]
             ];
 
             $errors = [
                 'password' => [
-                    'validateUser' => 'email & password tidak cocok!'
+                    'validateUser' => 'email/password tidak cocok!'
                 ]
             ];
 
@@ -57,7 +57,7 @@ class Auth extends BaseController
                 if ($user['id_role'] == 1) {
                     return redirect()->to('/admin');
                 } else {
-                    return redirect()->to('/member');
+                    return redirect()->to('/user');
                 }
             }
         }
@@ -82,7 +82,7 @@ class Auth extends BaseController
     {
         helper(['form']);
         $data = [
-            'title' => 'Register New Account!'
+            'title' => 'SimPangan | Register'
         ];
 
         if ($this->request->getMethod() == 'post') {
@@ -230,7 +230,7 @@ class Auth extends BaseController
         // }
 
         $data = [
-            'title' => 'Profile',
+            'title' => 'SimPangan | Profile',
             'user' => $model->where('id_users', session()->get('id_users'))->first()
         ];
 

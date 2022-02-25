@@ -29,7 +29,7 @@
                 <?php endif; ?>
                 <form class="user" action="/register" method="post">
                   <div class="form-group">
-                    <input type="text" class="form-control form-control-user" name="name" placeholder="Full Name" value="<?= set_value('name'); ?>">
+                    <input type="text" class="form-control form-control-user" name="name" placeholder="Full Name" value="<?= set_value('name'); ?>" autofocus>
                   </div>
                   <div class="form-group">
                     <input type="text" class="form-control form-control-user" name="email" placeholder="Email Address" value="<?= set_value('email'); ?>">
@@ -43,7 +43,7 @@
                     </div>
                   </div>
                   <button type="submit" class="btn btn-primary btn-user btn-block">
-                    Register Account
+                    Sign-Up
                   </button>
                 </form>
                 <hr>
