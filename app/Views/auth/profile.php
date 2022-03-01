@@ -65,10 +65,11 @@
             <div class="form-group">
               <div class="row">
                 <div class="col-4 text-lg-right">
-                  <label for="" class="text-lg">Gambar</label>
+                  <!-- <label for="" class="text-lg">Gambar</label> -->
                 </div>
                 <div class="col-5">
-                  <input type="file" class="form-control-file">
+                  <input type="file" class="custom-file-input">
+                  <label class="custom-file-label" for="">Choose file...</label>
                 </div>
               </div>
             </div>
